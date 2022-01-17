@@ -20,7 +20,7 @@ public class CurrencyConversionController {
     private CurrencyExchangeProxy proxy;
 
     // This is a crude way of calling another microservice using rest templates (we can use feign client instead)
-    @GetMapping(path = "currency-conversion-crude/from/{from}/to/{to}/quantity/{quantity}")
+    @GetMapping(path = "currency-conversion-rest/from/{from}/to/{to}/quantity/{quantity}")
     public CurrencyConversion calculateCurrencyConversionRestCall(
         @PathVariable String from,
         @PathVariable String to,

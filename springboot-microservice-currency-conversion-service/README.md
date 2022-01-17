@@ -3,6 +3,7 @@
 ## Setup
 
 - **Config Client** dependency added.
+- **Eureka Client** registers this service on naming server running on 8761 port. 
 - **Openfeign** dependency added. @EnableFeignClients and @FeignClient annotations added.
 - Check property files for git URI.
 - This service will run at multiple ports i.e. 8100, 8101, 8102. to demonstrate load balancing across multiple instances.
