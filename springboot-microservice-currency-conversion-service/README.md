@@ -2,9 +2,10 @@
 
 ## Setup
 
-- Config Client dependency is already added.
+- **Config Client** dependency added.
+- **Openfeign** dependency added. @EnableFeignClients and @FeignClient annotations added.
 - Check property files for git URI.
-- This service will run at multiple ports i.e. 8000, 8001, 8002. to demonstrate load balancing across multiple instances.
+- This service will run at multiple ports i.e. 8100, 8101, 8102. to demonstrate load balancing across multiple instances.
 - Currency Conversion microservice will talk to load balancer which in turn will route requests to various ports of Currency Exchange Service.
 - This microservice maintains it's own H2 in-memory database to store currency exchange rates [h2-console](http://localhost:8000/h2-console).
 
