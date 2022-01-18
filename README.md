@@ -3,6 +3,11 @@
 ## Reference Documentation
 This repository contains multiple microservices and spring cloud tools. General details are given below. Refer individual README markdowns for details.
 
+## Must read guides
+
+- https://spring.io/projects/spring-boot.
+- https://resilience4j.readme.io/docs/circuitbreaker.
+
 ## Ports
 
 | Application                       | Port                  |
@@ -28,5 +33,7 @@ This repository contains multiple microservices and spring cloud tools. General 
 | Spring API Gateway - DISABLED            | http://localhost:8765/currency-exchange/currency-exchange/from/USD/to/INR                                                        |
 | Spring API Gateway - REWRITE ROUTE       | http://localhost:8765/currency-exchange/from/USD/to/INR http://localhost:8765/currency-conversion/from/EUR/to/INR/quantity/10000 |
 | Spring API Gateway - CUSTOM ROUTE        | http://localhost:8765/currency-conversion-od/from/EUR/to/INR/quantity/10000                                                      |
+| Spring Circuit Breaker @Retry            | http://localhost:8000/sample-api                                                                                                 |
+| Spring Circuit Breaker @CircuitBreaker   | http://localhost:8000/sample-api-circuit-breaker                                                                                 |
 | Zipkin                                   | http://localhost:9411/zipkin/                                                                                                    |
 | Spring Cloud Bus Refresh                 | http://localhost:8080/actuator/bus-refresh (POST)                                                                                |
