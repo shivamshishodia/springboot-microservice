@@ -5,6 +5,7 @@
 - **Config Client** dependency is already added.
 - **Eureka Client** registers this service on naming server running on 8761 port. 
 - **Resilience4j** is added for Circuit breaker stuff. Refer `CircuitBreakController` for more.
+- **Sleuth, Zipkin and RabbitMQ** are added for distributed tracing.
 - Check property files for git URI.
 - This service will run at multiple ports i.e. 8000, 8001, 8002. to demonstrate load balancing across multiple instances.
 - Currency Conversion microservice will talk to load balancer which in turn will route requests to various ports of Currency Exchange Service.

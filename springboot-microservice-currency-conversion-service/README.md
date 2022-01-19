@@ -14,3 +14,4 @@
 
 - Currency Exchange Service: [/currency-exchange/from/USD/to/INR](http://localhost:8000/currency-exchange/from/USD/to/INR)
 - Currency Conversion Service: [/currency-conversion/from/USD/to/INR/quantity/10](http://localhost:8100/currency-conversion/from/USD/to/INR/quantity/10)
+- **Sleuth, Zipkin and RabbitMQ** are added for distributed tracing.

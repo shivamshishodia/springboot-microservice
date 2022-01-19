@@ -37,3 +37,7 @@ This repository contains multiple microservices and spring cloud tools. General 
 | Spring Circuit Breaker @CircuitBreaker   | http://localhost:8000/sample-api-circuit-breaker                                                                                 |
 | Zipkin                                   | http://localhost:9411/zipkin/                                                                                                    |
 | Spring Cloud Bus Refresh                 | http://localhost:8080/actuator/bus-refresh (POST)                                                                                |
+
+## Docker
+
+- Setup `Zipkin Distributed Tracing Server` using `docker run -p 9411:9411 openzipkin/zipkin:latest`.

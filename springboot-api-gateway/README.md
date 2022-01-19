@@ -9,5 +9,6 @@ For further reference, please consider the following sections:
 
 ## Guide
 
+- **Sleuth, Zipkin and RabbitMQ** are added for distributed tracing.
 - Custom API routes are added under `apigateway.config.ApiGatewayConfiguration`.
 - Every request is logged using `apigateway.filter.LoggingFilter`.
