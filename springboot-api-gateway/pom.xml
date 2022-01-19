@@ -67,6 +67,14 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<!-- Configuration for docker image. -->
+				<configuration>
+					<image>
+						<name>od/ms-${project.artifactId}:${project.version}</name>
+					</image>
+					<pullPolicy>IF_NOT_PRESENT</pullPolicy>
+				</configuration>
+				<!-- Configuration for docker image. -->
 			</plugin>
 		</plugins>
 	</build>
